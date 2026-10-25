@@ -1,0 +1,28 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local credentials and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large third-party speech recognition models
+assets/vosk-model-cn/
+assets/vosk-model-*/
+assets/*.zip
+
+# Hosting WAV files are intentionally tracked. The project owner has confirmed
+# that these specific recordings may be publicly redistributed.

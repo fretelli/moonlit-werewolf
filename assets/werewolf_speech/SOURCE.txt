@@ -1,0 +1,4 @@
+Generated with Edge online TTS using the zh-CN-XiaoxiaoNeural voice.
+Only the fixed public hosting script was submitted; no player information or secrets were included.
+The repository owner has confirmed that these specific audio files may be publicly redistributed with this project.
+This statement applies only to the WAV files committed in this directory and does not grant rights to generate or redistribute other service output.

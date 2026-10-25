@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>月夜 · 机器人狼人杀</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p class="eyebrow">MOONLIGHT / ROBOT GAME MASTER</p>
+        <h1>月夜<span>语音狼人杀</span></h1>
+      </div>
+      <span id="connection" role="status">连接中</span>
+    </header>
+    <section class="hero">
+      <p class="eyebrow">PUBLIC GAME STATE · 仅公开信息</p>
+      <h2 id="phase">等待游戏</h2>
+      <p id="summary">电脑后台运行，请跟随机器人语音操作。</p>
+      <div class="stats">
+        <div><small>回合</small><strong id="round">—</strong></div>
+        <div><small>当前座位</small><strong id="turn">—</strong></div>
+        <div><small>游戏结果</small><strong id="winner">未结算</strong></div>
+      </div>
+    </section>
+    <section>
+      <h2>座位状态</h2>
+      <div id="seats" class="seats"></div>
+    </section>
+    <section class="columns">
+      <article>
+        <h2>公开票数</h2>
+        <p id="tally">尚未公布</p>
+        <p id="eliminated">尚无出局结果</p>
+      </article>
+      <article>
+        <h2>隐私边界</h2>
+        <p>不显示身份、夜间目标、查验结果或未收齐的选票。不提供摄像头画面、收音或秘密屏幕预览。</p>
+        <p>所有操作通过机器人麦克风完成，秘密身份和查验结果只在私密屏幕显示。</p>
+      </article>
+    </section>
+    <footer>
+      <p>在线只表示本机服务可达，不代表机器人扬声器或屏幕效果已经验证。断线时保持遮挡并现场检查设备。</p>
+      <button id="stop" disabled>终止本局</button>
+      <p id="message" role="status"></p>
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

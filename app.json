@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "id": "fretelli.moonlit_werewolf",
+  "name": "月夜 · 大模型语音狼人杀",
+  "version": "0.5.1",
+  "requires_watcherobot": ">=0.1.10,<0.2",
+  "dependencies": ["vosk==0.3.45"],
+  "supported_host_platforms": [
+    "windows",
+    "macos"
+  ],
+  "description": "OpenAI 兼容大模型驱动的单人语音狼人杀：本地 Vosk 转写语音，兼容文本接口理解指令并驱动五名电脑玩家，确定性规则引擎负责裁决，机器人使用固定音频主持。",
+  "author": "fretelli",
+  "icon": "icon.svg"
+}
